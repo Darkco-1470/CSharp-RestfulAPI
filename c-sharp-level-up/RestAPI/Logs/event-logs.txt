@@ -1,0 +1,30 @@
+2022-04-21 10:39:52.273 +02:00 [INF] Request to update user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 10:39:54.437 +02:00 [INF] User profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 updated
+2022-04-21 10:39:54.457 +02:00 [INF] 500 ERROR: Object reference not set to an instance of an object.
+2022-04-21 10:40:42.428 +02:00 [INF] Request to update user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 10:40:44.890 +02:00 [INF] User profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 updated
+2022-04-21 10:40:44.978 +02:00 [INF] 500 ERROR: Object reference not set to an instance of an object.
+2022-04-21 10:41:17.731 +02:00 [INF] Request to update user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 10:41:19.577 +02:00 [INF] User profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 updated
+2022-04-21 10:41:19.647 +02:00 [INF] 500 ERROR: Object reference not set to an instance of an object.
+2022-04-21 10:41:42.414 +02:00 [INF] Request to update user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 10:42:10.689 +02:00 [INF] User profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 updated
+2022-04-21 10:42:34.612 +02:00 [INF] Request to update user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 10:42:35.852 +02:00 [INF] User profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 updated
+2022-04-21 10:42:35.923 +02:00 [INF] 500 ERROR: Object reference not set to an instance of an object.
+2022-04-21 10:43:14.381 +02:00 [INF] Request to update user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 10:43:14.455 +02:00 [INF] User profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 updated
+2022-04-21 10:43:14.522 +02:00 [INF] 500 ERROR: Object reference not set to an instance of an object.
+2022-04-21 10:43:21.729 +02:00 [INF] Request to update user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 10:43:34.922 +02:00 [INF] User profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 updated
+2022-04-21 10:44:42.606 +02:00 [INF] 500 ERROR: Object reference not set to an instance of an object.
+2022-04-21 10:44:52.406 +02:00 [INF] Request to update user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 10:44:57.754 +02:00 [INF] User profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 updated
+2022-04-21 10:46:45.132 +02:00 [INF] Request for all products
+2022-04-21 10:46:45.216 +02:00 [INF] 11 product records found
+2022-04-21 11:21:35.016 +02:00 [INF] Create request for new user profile with role: Administrator
+2022-04-21 11:21:38.030 +02:00 [INF] 500 ERROR: An error occurred while saving the entity changes. See the inner exception for details.
+2022-04-21 11:27:11.395 +02:00 [INF] Request for user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 11:27:13.514 +02:00 [INF] Record for user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 found
+2022-04-21 11:28:05.604 +02:00 [INF] Request to update user profile #3fa85f64-5717-4562-b3fc-2c963f66afa6
+2022-04-21 11:28:06.848 +02:00 [INF] User profile #3fa85f64-5717-4562-b3fc-2c963f66afa6 updated

@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestAPI</name>
+    </assembly>
+    <members>
+        <member name="M:RestAPI.Controllers.AuthenticationController.PostAuthenticate(RestAPI.Models.FakeAuthRequest)">
+             <summary>
+             Generate a JWT token for development use
+             </summary>
+             /// <remarks>
+             Sample request:
+            
+                 {
+                    "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                    "type": "Buyer"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:RestAPI.Controllers.OrderController.PostCreateOrder(RestAPI.Models.OrderCreate)">
+            <summary>
+            Create new order for a specified user
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.OrderController.GetAllOrders(System.Collections.Generic.List{RestAPI.Common.Enums.EOrderStatus},System.Collections.Generic.List{RestAPI.Common.Enums.EOrderType})">
+            <summary>
+            Get all orders
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.OrderController.GetOrder(System.Guid)">
+            <summary>
+            Get a single order
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.OrderController.PostOrderStatusUpdate(System.Guid,RestAPI.Models.OrderUpdate)">
+            <summary>
+            Create new status update for an order
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.OrderController.GetOrderStatusUpdates(System.Guid)">
+            <summary>
+            Get status update history for an order
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductController.GetProducts(System.String,System.String)">
+            <summary>
+            Get all products
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductController.GetProduct(System.Guid)">
+            <summary>
+            Get a single product
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductController.PostCreateProduct(RestAPI.Models.ProductCreate)">
+            <summary>
+            Create a new product
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductController.DeleteProduct(System.Guid)">
+            <summary>
+            Remove a product
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductController.UpdateProduct(System.Guid,RestAPI.Models.ProductUpdate)">
+            <summary>
+            Update a product
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductVariantController.GetProductVariants(System.String,System.Nullable{System.Double},System.Nullable{System.Double})">
+            <summary>
+            Get all product variants
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductVariantController.GetProductVariant(System.Guid)">
+            <summary>
+            Get a single product variants
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductVariantController.PostCreateProductVariant(RestAPI.Models.ProductVariantCreate)">
+            <summary>
+            Create a new product variant
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductVariantController.DeleteProductVariant(System.Guid)">
+            <summary>
+            Remove a product variant
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.ProductVariantController.UpdateProductVariant(System.Guid,RestAPI.Models.ProductVariantUpdate)">
+            <summary>
+            Update a product variant
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.PostCreateUserProfile(RestAPI.Models.UserProfileCreate)">
+             <summary>
+             Create new user profile
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 {
+                    "firstName": "Sebas",
+                    "surname": "Tian",
+                    "email": "fake@bbd.co.za"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.GetUserProfiles(System.Collections.Generic.IEnumerable{RestAPI.Common.Enums.EUserType})">
+            <summary>
+            Get all user profiles
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.GetUserProfile(System.Guid)">
+            <summary>
+            Get single user profile
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.GetUserOrders(System.Guid,System.Collections.Generic.IEnumerable{RestAPI.Common.Enums.EOrderStatus},System.Collections.Generic.IEnumerable{RestAPI.Common.Enums.EOrderType})">
+            <summary>
+            Get all orders linked to a user's profile
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.GetUserProfileAddress(System.Guid)">
+            <summary>
+            Get all addresses linked to a user's profile
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.PostUserProfileAddress(RestAPI.Models.AddressCreate,System.Guid)">
+            <summary>
+            Create new address linked to a user's profile
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.GetUserProfileAddress(System.Guid,System.Guid)">
+            <summary>
+            Get a single address linked to a user's profile
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.DeleteUserProfileAddress(System.Guid,System.Guid)">
+            <summary>
+            Remove an address linked to a user's profile
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.PutUserProfileAddress(RestAPI.Models.AddressUpdate,System.Guid,System.Guid)">
+            <summary>
+            Update an address linked to a user's profile
+            </summary>
+        </member>
+        <member name="M:RestAPI.Controllers.UserProfileController.PutUpdateUserProfile(RestAPI.Models.UserProfileUpdate,System.Guid)">
+            <summary>
+            Update a user's profile
+            </summary>
+        </member>
+    </members>
+</doc>
